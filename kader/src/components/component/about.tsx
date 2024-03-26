@@ -8,7 +8,7 @@ export function About() {
   return (
     <section className="bg-[#41394B] text-white p-6 h-3/4">
       <div className="flex items-center justify-between">
-        <div className="w-1/2">
+        <div className="w-1/2 max-sm:hidden">
           <img
             alt="Graphic Designer"
             className="rounded-full"
@@ -21,12 +21,14 @@ export function About() {
             width="500"
           />
         </div>
-        <div className="w-1/2 pl-10">
-          <h1 className="text-6xl font-bold">
+        <div className="w-1/2 pl-10 max-sm:w-screen">
+          <h1 className="text-6xl font-bold max-sm:text-4xl">
             About <span className="text-[#9747FF]">Me</span>
           </h1>
-          <h2 className="text-4xl font-semibold mt-2">Graphic Designer</h2>
-          <p className="mt-24 w-3/4 text-lg">
+          <h2 className="text-4xl font-semibold mt-2 max-sm:text-2xl">
+            Graphic Designer
+          </h2>
+          <p className="mt-24 w-3/4 text-lg max-sm:mt-6 max-sm:w-full">
             Si Bachir Abd El Kader, a 19-year-old graphic designer. I design
             engaging posts, carousels, and advertisements with creativity and
             dedication. I also design clothes, including hoodies. My designs
