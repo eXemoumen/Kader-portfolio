@@ -6,7 +6,7 @@ import { Button } from "@/components/ui/button";
 
 export function About() {
   return (
-    <section className="bg-[#41394B] text-white p-6 h-3/4">
+    <section className="bg-[#41394B] text-white p-6 h-3/4" id="about">
       <div className="flex items-center justify-between">
         <div className="w-1/2 max-sm:hidden">
           <img

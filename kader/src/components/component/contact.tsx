@@ -8,7 +8,7 @@ import { Button } from "@/components/ui/button";
 
 export function Contact() {
   return (
-    <div className="bg-[#1e1e2d] h-full flex flex-col items-center justify-center text-white ">
+    <div className="bg-[#1e1e2d] h-full flex flex-col items-center justify-center text-white " id="contact">
       <h1 className="text-4xl font-bold mb-8 mt-10">Contact Me!</h1>
       <form className="w-full max-w-2xl space-y-6 max-sm:w-[80%]">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">

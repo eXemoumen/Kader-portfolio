@@ -6,7 +6,7 @@ import { Button } from "@/components/ui/button";
 
 export function Service() {
   return (
-    <div className="bg-[#1E1E1E] p-6 h-2/3 text-xl ">
+    <div className="bg-[#1E1E1E] p-6 h-2/3 text-xl " id="service">
       <h2 className="text-center text-4xl font-bold text-white mb-32 max-sm:mb-20">
         My <span className="text-[#9747FF] ">Services</span>{" "}
       </h2>

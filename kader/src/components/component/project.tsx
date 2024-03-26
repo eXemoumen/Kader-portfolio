@@ -1,9 +1,11 @@
-
 import { Button } from "@/components/ui/button";
 import Image from "next/image";
 export function Project() {
   return (
-    <div className="bg-[#4c3575] min-h-screen p-6 text-white flex flex-col items-center justify-center ">
+    <div
+      id="project"
+      className="bg-[#4c3575] min-h-screen p-6 text-white flex flex-col items-center justify-center "
+    >
       <h1 className="text-4xl font-bold mb-10">My Projects</h1>
       <div className=" flex flex-wrap justify-center items-center  gap-10 max-sm:flex-col">
         <div className="group bg-black rounded-3xl  shadow-lg hover:shadow-2xl transition-shadow duration-300 w-[300px] h-[630px] basis-[28%] hover:translate-y-5 max-sm:w-[200px] ">
@@ -92,7 +94,6 @@ export function Project() {
           />
         </div>
       </div>
-
     </div>
   );
 }
