@@ -10,7 +10,7 @@ export function Contact() {
   return (
     <div className="bg-[#1e1e2d] h-full flex flex-col items-center justify-center text-white ">
       <h1 className="text-4xl font-bold mb-8 mt-10">Contact Me!</h1>
-      <form className="w-full max-w-2xl space-y-6">
+      <form className="w-full max-w-2xl space-y-6 max-sm:w-[80%]">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           <Input
             className="bg-[#2d2d3d] text-white border-none"
@@ -36,7 +36,7 @@ export function Contact() {
           placeholder="Your Message..."
         />
         <div className="flex justify-center">
-          <Button className="mt-4" variant="secondary">
+          <Button className="mt-4 max-sm:mt-1" variant="secondary">
             Send
           </Button>
         </div>
