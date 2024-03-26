@@ -6,12 +6,12 @@ import { Button } from "@/components/ui/button";
 
 export function Service() {
   return (
-    <div className="bg-[#1E1E1E] p-6 h-2/3 text-xl">
-      <h2 className="text-center text-4xl font-bold text-white mb-32">
+    <div className="bg-[#1E1E1E] p-6 h-2/3 text-xl ">
+      <h2 className="text-center text-4xl font-bold text-white mb-32 max-sm:mb-20">
         My <span className="text-[#9747FF] ">Services</span>{" "}
       </h2>
-      <div className="flex justify-center gap-4">
-        <div className="bg-[#41394B] rounded-lg p-6 text-center text-white w-96 h-96 flex flex-col items-center justify-center ">
+      <div className="flex justify-center items-center  gap-4 max-sm:flex-col ">
+        <div className="bg-[#41394B] rounded-lg p-6 text-center text-white w-96 h-96 flex flex-col items-center justify-center max-sm:w-64">
           <InstagramIcon className="text-[#C13584] mx-auto mb-4" />
           <h3 className="text-xl font-semibold mb-8">Posts</h3>
           <p className="mb-6">
@@ -22,7 +22,7 @@ export function Service() {
             See More
           </Button>
         </div>
-        <div className="bg-[#41394B] rounded-lg p-6 text-center text-white  w-96 h-96 flex flex-col items-center justify-center">
+        <div className="bg-[#41394B] rounded-lg p-6 text-center text-white  w-96 h-96 flex flex-col items-center justify-center max-sm:w-64">
           <DollarSignIcon className="text-[#4CAF50] mx-auto mb-4" />
           <h3 className="text-xl font-semibold mb-8">Carousels</h3>
           <p className="mb-6">
@@ -33,7 +33,7 @@ export function Service() {
             See More
           </Button>
         </div>
-        <div className="bg-[#41394B] rounded-lg p-6 text-center text-white  w-96 h-96 flex flex-col items-center justify-center">
+        <div className="bg-[#41394B] rounded-lg p-6 text-center text-white  w-96 h-96 flex flex-col items-center justify-center max-sm:w-64">
           <ShirtIcon className="text-[#9C27B0] mx-auto mb-4" />
           <h3 className="text-xl font-semibold mb-8">Clothes</h3>
           <p className="mb-6">
