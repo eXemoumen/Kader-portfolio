@@ -92,20 +92,7 @@ export function Project() {
           />
         </div>
       </div>
-      <div className="flex justify-center space-x-4 mt-10">
-        <Button
-          className="text-white border border-gray-200 border-white dark:border-gray-800"
-          variant="ghost"
-        >
-          {`<`}
-        </Button>
-        <Button
-          className="text-white border border-gray-200 border-white dark:border-gray-800"
-          variant="ghost"
-        >
-          {`>`}
-        </Button>
-      </div>
+
     </div>
   );
 }
