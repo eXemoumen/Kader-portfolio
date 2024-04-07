@@ -3,7 +3,7 @@ import { About } from "@/components/component/about";
 import Image from "next/image";
 import { Service } from "@/components/component/service";
 import { Project } from "@/components/component/project";
-import { Contact } from "@/components/component/contact";
+
 
 export default function Home() {
   return (
@@ -12,7 +12,7 @@ export default function Home() {
       <About></About>
       <Service></Service>
       <Project></Project>
-      <Contact></Contact>
+
     </>
   );
 }

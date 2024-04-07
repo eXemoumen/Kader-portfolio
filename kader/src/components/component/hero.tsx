@@ -1,6 +1,7 @@
 "use client";
-import { Link } from "react-scroll";
+
 import { Button } from "@/components/ui/button";
+import { Link } from "react-scroll";
 import Image from "next/image";
 import { usePathname } from "next/navigation";
 import { useState } from "react";
@@ -17,10 +18,10 @@ export function Hero() {
     return pathname === path; // Check if the path is the current route
   };
   return (
-    <div className="bg-[#1E1E1E] text-white h-screen" id="home">
-      <header className="container mx-auto p-6 flex justify-between items-center">
+    <div className="bg-[#1E1E1E] text-white h-screen max-sm:h-[70vh]" id="home">
+      <header className="container mx-auto p- flex justify-between items-center">
         <nav className="bg-[#1E1E1E] border-gray-200  flex items-center justify-between  ">
-          <div className="w-[90vw] flex flex-wrap items-center justify-between mx-auto p-6 max-sm:w-[90vw]">
+          <div className="w-[89vw] flex flex-wrap items-center justify-between mx-auto p-6 max-sm:w-[89vw]">
             <h1 className="text-3xl font-bold max-md:text-2xl flex items-center space-x-3 rtl:space-x-reverse">
               Portfolio.
             </h1>
@@ -119,7 +120,7 @@ export function Hero() {
         </nav>
       </header>
 
-      <section className="container mx-auto px-10 flex flex-col lg:flex-row items-center justify-between mt-10 max-sm:mt-10">
+      <section className="container mx-auto px-10 flex flex-col lg:flex-row items-center justify-between mt-10 max-sm:mt-10 ">
         <div className="space-y-6 w-1/2 max-md:w-[90%] max-sm:w-5/6 ">
           <h2 className="text-4xl font-bold max-sm:text-2xl">Hello, I am</h2>
           <h1 className="text-6xl font-extrabold max-sm:text-3xl">
