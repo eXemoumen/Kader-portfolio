@@ -20,13 +20,7 @@ export function Project() {
             }}
             width="300"
           />
-          <div>
-            <h1>Mountain</h1>
-            <p>
-              Lorem Ipsum is simply dummy text from the printing and typeseting
-              industry
-            </p>
-          </div>
+        
         </div>
         <div className="group bg-black rounded-3xl overflow-hidden shadow-lg hover:shadow-2xl transition-shadow duration-300 w-[350px] h-[630px] basis-[28%] max-sm:w-[200px]">
           <Image
