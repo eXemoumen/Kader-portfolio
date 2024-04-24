@@ -1,7 +1,7 @@
 "use client";
 
 import { Button } from "@/components/ui/button";
-import { Link } from "react-scroll";
+import { Link } from 'react-scroll';
 import Image from "next/image";
 import { usePathname } from "next/navigation";
 import { useState } from "react";
