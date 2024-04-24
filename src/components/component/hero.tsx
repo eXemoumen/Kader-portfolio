@@ -22,9 +22,11 @@ export function Hero() {
       <header className="container mx-auto p- flex justify-between items-center">
         <nav className="bg-[#1E1E1E] border-gray-200  flex items-center justify-between  ">
           <div className="w-[89vw] flex flex-wrap items-center justify-between mx-auto p-6 max-sm:w-[89vw]">
-            <h1 className="text-3xl font-bold max-md:text-2xl flex items-center space-x-3 rtl:space-x-reverse">
-              Portfolio.
-            </h1>
+            <img
+              src="/MY-LOGO (1).PNG"
+              alt="Si Bachir Abd El Kader"
+              className=" h-16 w-16 flex items-center space-x-3 rtl:space-x-reverse"
+            ></img>
             <button
               onClick={ClickHandler}
               data-collapse-toggle="navbar-default"
@@ -139,15 +141,21 @@ export function Hero() {
             <div className="h-12 w-12 rounded-full  bg-white flex items-center justify-center">
               <YoutubeIcon className="h-8 w-8 text-black" />
             </div>
-            <div className="h-12 w-12 rounded-full  bg-white flex items-center justify-center">
-              <FacebookIcon className="h-8 w-8 text-black" />
-            </div>
-            <div className="h-12 w-12 rounded-full  bg-white flex items-center justify-center">
-              <InstagramIcon className="h-8 w-8 text-black" />
-            </div>
+            <a href="https://m.facebook.com/profile.php?id=100039589643618">
+              <div className="h-12 w-12 rounded-full  bg-white flex items-center justify-center">
+                <FacebookIcon className="h-8 w-8 text-black" />
+              </div>
+            </a>
+
+            <a href="https://www.instagram.com/kdr.4s?igsh=ejd1Zmlrazl1b3F2">
+              {" "}
+              <div className="h-12 w-12 rounded-full  bg-white flex items-center justify-center">
+                <InstagramIcon className="h-8 w-8 text-black" />
+              </div>
+            </a>
           </div>
           <Button className="bg-purple-600 hover:bg-purple-700">
-            See More
+            <a href="#service">See More</a>
           </Button>
         </div>
         <div className="w-1/2  flex justify-center items-center max-sm:w-1/2">
