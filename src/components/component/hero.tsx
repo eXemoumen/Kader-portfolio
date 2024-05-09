@@ -123,7 +123,7 @@ export function Hero() {
         </nav>
       </header>
 
-      <section className="container mx-auto px-10 flex flex-col lg:flex-row items-center justify-between mt-10 max-sm:mt-10 ">
+      <section className="container mx-auto px-10 flex flex-col lg:flex-row items-center justify-between mt-10 max-sm:mt-0 ">
         <div className="space-y-6 w-1/2 max-md:w-[90%] max-sm:w-5/6 ">
           <h2 className="text-4xl font-bold max-sm:text-2xl">Hello, I am</h2>
           <h1 className="text-6xl font-extrabold max-sm:text-3xl">
