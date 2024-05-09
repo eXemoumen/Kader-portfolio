@@ -19,7 +19,7 @@ export function Hero() {
     return pathname === path; // Check if the path is the current route
   };
   return (
-    <div className="bg-[#1E1E1E] text-white h-screen max-sm:h-[85vh]" id="home">
+    <div className="bg-[#1E1E1E] text-white h-screen max-sm:h-[100vh]" id="home">
       <header className="container mx-auto p- flex justify-between items-center">
         <nav className="bg-[#1E1E1E] border-gray-200  flex items-center justify-between  ">
           <div className="w-[89vw] flex flex-wrap items-center justify-between mx-auto p-6 max-sm:w-[89vw]">
