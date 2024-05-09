@@ -6,6 +6,7 @@ import Image from "next/image";
 import { usePathname } from "next/navigation";
 import { useState } from "react";
 
+
 export function Hero() {
   const [toggle, setToggle] = useState(false);
   const pathname = usePathname();
@@ -18,12 +19,12 @@ export function Hero() {
     return pathname === path; // Check if the path is the current route
   };
   return (
-    <div className="bg-[#1E1E1E] text-white h-screen max-sm:h-[70vh]" id="home">
+    <div className="bg-[#1E1E1E] text-white h-screen max-sm:h-[85vh]" id="home">
       <header className="container mx-auto p- flex justify-between items-center">
         <nav className="bg-[#1E1E1E] border-gray-200  flex items-center justify-between  ">
           <div className="w-[89vw] flex flex-wrap items-center justify-between mx-auto p-6 max-sm:w-[89vw]">
             <img
-              src="/MY-LOGO (1).PNG"
+              src="/MY-LOGO.png"
               alt="Si Bachir Abd El Kader"
               className=" h-16 w-16 flex items-center space-x-3 rtl:space-x-reverse"
             ></img>
@@ -59,7 +60,7 @@ export function Hero() {
               } w-full md:block md:w-auto`}
               id="navbar-default"
             >
-              <ul className="font-medium flex justify-around p-4 md:p-0 mt-4 border border-gray-100 rounded-lg md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-[#1E1E1E] dark:bg-[#1E1E1E] md:dark:bg-[#1E1E1E] dark:border-gray-700">
+              <ul className="font-medium flex justify-around max-sm:p-0 p-4 md:p-0 mt-4 border border-gray-100 rounded-lg md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-[#1E1E1E] dark:bg-[#1E1E1E] md:dark:bg-[#1E1E1E] dark:border-gray-700">
                 {/* <li>
                   <Link
                     to="home"
